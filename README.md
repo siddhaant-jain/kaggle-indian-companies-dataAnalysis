@@ -4,7 +4,9 @@
 https://www.kaggle.com/rowhitswami/all-indian-companies-registration-data-1900-2019#
 
 ## Tasks List:
-  - task1
-    - subtask1
-    - subtask2
-  - task2
+  - Check count of Null values (if any) in each column
+  - Validation of columns
+    - Regex for CIN
+    - Regex for mailid
+    - Regex for date_of_registration,
+  - Change datatype of all columns based on values (Initially all strings)
