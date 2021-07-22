@@ -40,6 +40,7 @@ comp_data2 = comp_data1.filter('COMPANY_CLASS is not NULL')
 # Number of companies with non-null REGISTERED_OFFICE_ADDRESS = 1971833
 comp_data3 = comp_data2.filter('REGISTERED_OFFICE_ADDRESS is not NULL')
 
-
+comp_data4 = comp_data3.groupby('COMPANY_CLASS').count()
+comp_data4.show(truncate = False)
 
 spark.stop()
