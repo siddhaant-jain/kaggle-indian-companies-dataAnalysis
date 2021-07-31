@@ -68,5 +68,4 @@ comp_data4 = comp_data3.filter(comp_data3["LATEST_YEAR_ANNUAL_RETURN"].rlike("[0
 
 
 comp_data4.show()
-comp_data4.printSchema()
 spark.stop()
